@@ -13,8 +13,8 @@ using namespace cv;
 using namespace std;
 
 
-const char *faceCascadeFilename1 = "/usr/openCV/opencv/data/haarcascades/haarcascade_upperbody.xml";
-const char *faceCascadeFilename2 = "/home/davy/HS.xml";
+const char *faceCascadeFilename1 = "../haarcascade_upperbody.xml";
+const char *faceCascadeFilename2 = "../HS.xml";
 const int DETECTION_WIDTH = 640;
 
 void initWebcam(cv::VideoCapture &cap, int cameraNumber,int width, int height)
